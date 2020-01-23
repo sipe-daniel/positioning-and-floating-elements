@@ -1,54 +1,57 @@
-@import "compass/css3";
-
-.navigation {
-  list-style: none;
-  margin: 0; 
-  
-  background: deepskyblue;
-  
-  display: -webkit-box;
-  display: -moz-box;
-  display: -ms-flexbox;
-  display: -webkit-flex;
-  display: flex;
-  
-  -webkit-flex-flow: row wrap;
-  justify-content: flex-end;
-}
-
-.navigation a {
-  text-decoration: none;
-  display: block;
-  padding: 1em;
-  color: white;
-}
-
-.navigation a:hover {
-  background: darken(deepskyblue, 2%);
-}
-
-@media all and (max-width: 800px) {
-  .navigation {
-    justify-content: space-around;
-  }
-}
-
-@media all and (max-width: 600px) {
-  .navigation {
-    -webkit-flex-flow: column wrap;
-    flex-flow: column wrap;
+ul {
+    list-style-type: none;
+    margin: 0;
     padding: 0;
-  }
-  
-  .navigation a { 
-    text-align: center; 
-    padding: 10px;
-    border-top: 1px solid rgba(255,255,255,0.3); 
-    border-bottom: 1px solid rgba(0,0,0,0.1); 
-  }
+    overflow: hidden;
+    /* background-color: #333; */
+}
 
-  
-  .navigation li:last-of-type a {
-    border-bottom: none;
-  }
+li {
+    float: left;
+}
+
+li a {
+    display: block;
+    /* color: white; */
+    text-align: center;
+    text-decoration: none;
+} 
+
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+}
+li{
+    /* flex: 1; */
+    margin: 0 1em;
+    display: inline-block;
+}
+
+
+.subscibtionBtn, .loginBtn{
+    float: right;
+}
+
+.loginBtn {
+    margin:0 0em;
+}
+
+.logo > a >img{
+    float: none;
+    margin: 0;
+    padding: 0;
+    border: 0;
+}
+
+.logo > a >img {
+    width: 195px;
+}
+
+.logo {
+    margin: 0px 29%;
+}
+
+.navigation{
+    border-bottom: 1px solid #e2e2e2;
 }
