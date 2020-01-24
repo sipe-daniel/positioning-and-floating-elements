@@ -15,36 +15,36 @@ li a {
     /* color: white; */
     text-align: center;
     text-decoration: none;
-} 
+}
 
 ul {
     list-style-type: none;
     margin: 0;
     padding: 0;
 }
-li{
+
+li {
     /* flex: 1; */
     margin: 0 1em;
     display: inline-block;
 }
 
-
-.subscibtionBtn, .loginBtn{
+.subscibtionBtn, .loginBtn {
     float: right;
 }
 
 .loginBtn {
-    margin:0 0em;
+    margin: 0 0em;
 }
 
-.logo > a >img{
+.logo>a>img {
     float: none;
     margin: 0;
     padding: 0;
     border: 0;
 }
 
-.logo > a >img {
+.logo>a>img {
     width: 195px;
 }
 
@@ -52,35 +52,38 @@ li{
     margin: 0px 29%;
 }
 
-.navigation{
+.navigation {
     border-bottom: 1px solid #e2e2e2;
 }
 
 * {
     box-sizing: border-box;
 }
+
 .big-image {
     display: flex;
     align-items: center;
     justify-content: center;
     flex-direction: column;
-    }
+}
+
 .big-image img {
-        /* background-image: url(''); */
-        width:850px ;
-        height: auto ;
-    }
+    /* background-image: url(''); */
+    width: 850px;
+    height: auto;
+}
+
 article header {
     display: flex;
     width: 0 auto;
     align-items: center;
     justify-content: center;
-
 }
+
 header h1 {
     /*position: relative;*/
     color: #121212;
-    font-family: nyt-cheltenham, georgia,'times new roman',times,serif;
+    font-family: nyt-cheltenham, georgia, 'times new roman', times, serif;
     font-weight: 700;
     font-style: italic;
     font-size: 1.5rem;
@@ -89,19 +92,20 @@ header h1 {
     text-align: left;
     margin: 30px auto;
 }
+
 article span {
     display: block;
     width: 850px;
     font-size: 0.7375rem;
     /* line-height: 0.8rem; */
     padding-right: 200px;
-    margin-top:10px;
+    margin-top: 10px;
 }
-
 
 section {
     width: ;
 }
+
 section div {
     /* display: flex; */
     margin-left: calc((100% - 600px) / 2);
@@ -113,7 +117,8 @@ section div {
     flex-direction: row;
     /* height: 100%;    */
 }
-section div > div {
+
+section div>div {
     margin-left: calc((100% - 600px) / 2);
     margin-right: 0;
     width: 600px;
