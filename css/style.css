@@ -10,10 +10,10 @@ ul {
 }
 
 li {
-    float: left;
+    display: inline-block;
+    /* float: left; */
     /* flex: 1; */
     margin: 0 1em;
-    display: inline-block;
 }
 
 .subscibtionBtn, .loginBtn {
@@ -47,7 +47,7 @@ li {
     box-sizing: border-box;
 } */
 
-main article {
+main .principal-article {
     width: 1200px;
     margin-left: auto;
     margin-right: auto;
@@ -108,9 +108,9 @@ header+section {
 }
 
 section div {
-    margin-left: calc((100% - 600px) / 2);
+    /* margin-left: calc((100% - 600px) / 2); */
     margin-right: 0;
-    width: 600px;
+    /* width: 600px; */
     padding-right: 150px;
     color: #333;
 }
@@ -209,6 +209,6 @@ div.author {
     height: 30px;
     outline: 1px solid green;
 }
-.top-icons li:hover{{
+/* .top-icons li:hover{{
 
-}
+} */
