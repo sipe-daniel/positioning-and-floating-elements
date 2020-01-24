@@ -193,3 +193,14 @@ div.author {
     color: rgb(50, 104, 145);
     text-decoration: none;
 }
+.top-icons ul{
+
+}
+.top-icons li{
+    background: url(../images/logos.png) -113px -56px;
+    display: inline-block;
+    /* left: 106px;
+    position: absolute; */
+    width: 27px;
+    height: 30px;
+}
