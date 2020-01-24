@@ -56,20 +56,25 @@ li {
     border-bottom: 1px solid #e2e2e2;
 }
 
-* {
+/* * {
     box-sizing: border-box;
+} */
+main article {
+    width: 1200px;
+    margin-left: auto;
+    margin-right: auto;
 }
-
 .big-image {
     display: flex;
     align-items: center;
     justify-content: center;
     flex-direction: column;
+    cursor: pointer;
 }
 
 .big-image img {
     /* background-image: url(''); */
-    width: 850px;
+    width: 100%;;
     height: auto;
 }
 
@@ -92,18 +97,26 @@ header h1 {
     text-align: left;
     margin: 30px auto;
 }
-
-article span {
-    display: block;
-    width: 850px;
-    font-size: 0.7375rem;
-    /* line-height: 0.8rem; */
+header div {
+}
+ article span {
+  display: block;
+     /* width: 850px;*/
+    line-height: 1.2rem; 
+    max-width: 900px;
     padding-right: 200px;
     margin-top: 10px;
-}
+    color: #666;
+    font-family: nyt-imperial,georgia,'times new roman',times,serif;
+    margin-right: 100px;
+    text-align: left;
+    font-size: 13px;
 
-section {
-    width: ;
+} 
+article span > span {
+    display: inline;
+    font-size: 13px;
+    color: #888;
 }
 
 section div {
@@ -111,10 +124,10 @@ section div {
     margin-left: calc((100% - 600px) / 2);
     margin-right: 0;
     width: 600px;
-    margin-left: auto;
-    margin-right: auto;
+    padding-right: 150px;
     color: #333;
     flex-direction: row;
+    text-align: justify;
     /* height: 100%;    */
 }
 
