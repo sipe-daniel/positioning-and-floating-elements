@@ -54,22 +54,18 @@ main article {
 }
 
 .big-image {
-    display: flex;
     align-items: center;
     justify-content: center;
-    flex-direction: column;
 }
 
 .big-image img {
     /* background-image: url(''); */
     width: 100%;
-    ;
     height: auto;
     cursor: pointer;
 }
 
 article header {
-    display: flex;
     width: 0 auto;
     align-items: center;
     justify-content: center;
@@ -112,13 +108,11 @@ header+section {
 }
 
 section div {
-    /* display: flex; */
     margin-left: calc((100% - 600px) / 2);
     margin-right: 0;
     width: 600px;
     padding-right: 150px;
     color: #333;
-    flex-direction: row;
 }
 
 section div>div {
