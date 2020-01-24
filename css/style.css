@@ -1,3 +1,6 @@
+section > h2 {
+    display: none;
+}
 ul {
     list-style-type: none;
     margin: 0;
@@ -162,7 +165,9 @@ div.author {
     text-decoration: none;
     color: inherit;
 }
-
+.time {
+    float: left;
+}
 .time li {
     font-weight: 500;
     color: #333;
@@ -193,14 +198,23 @@ div.author {
     color: rgb(50, 104, 145);
     text-decoration: none;
 }
+.top-icons{
+    float: right;
+    /* clear: both; */
+}
 .top-icons ul{
+    float: right;
 
 }
 .top-icons li{
-    background: url(../images/logos.png) -113px -56px;
-    display: inline-block;
-    /* left: 106px;
+    background: url(../images/fb-icon) 0 0;
+    /*display: inline-block;
+     left: 106px;
     position: absolute; */
     width: 27px;
     height: 30px;
+    outline: 1px solid green;
+}
+.top-icons li:hover{{
+
 }
