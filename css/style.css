@@ -43,11 +43,13 @@ li {
 /* * {
     box-sizing: border-box;
 } */
+
 main article {
     width: 1200px;
     margin-left: auto;
     margin-right: auto;
 }
+
 .big-image {
     display: flex;
     align-items: center;
@@ -57,7 +59,8 @@ main article {
 
 .big-image img {
     /* background-image: url(''); */
-    width: 100%;;
+    width: 100%;
+    ;
     height: auto;
     cursor: pointer;
 }
@@ -84,25 +87,27 @@ header h1 {
 }
 
 header p {
-     font-size: 0.9375rem;
-     line-height: 1.25rem;
+    font-size: 0.9375rem;
+    line-height: 1.25rem;
     margin-top: 10px;
     color: #666;
-    font-family: nyt-imperial,georgia,'times new roman',times,serif;
+    font-family: nyt-imperial, georgia, 'times new roman', times, serif;
     text-align: left;
     margin-right: 300px;
-} 
-header p > span {
+}
+
+header p>span {
     display: inline;
     font-size: 0.8125rem;
     line-height: 1.125rem;
     color: #888;
     letter-spacing: 0.01em;
-
 }
-header + section {
+
+header+section {
     margin-top: 25px;
 }
+
 section div {
     /* display: flex; */
     margin-left: calc((100% - 600px) / 2);
@@ -122,15 +127,24 @@ section div>div {
 section p {
     font-size: 1.25rem;
     line-height: 1.875rem;
-    font-family: nyt-imperial, georgia,'times new roman',times,serif;
+    font-family: nyt-imperial, georgia, 'times new roman', times, serif;
 }
-.author p, .time {
-    font-family: nyt-franklin, helvetica,arial,sans-serif;
+section p a {
+    color: #326891;
 }
-div.author {    
+
+section p a:hover {
+    text-decoration: none;
+}
+.author p, .time, .separator-ad {
+    font-family: nyt-franklin, helvetica, arial, sans-serif;
+}
+
+div.author {
     margin-bottom: 15px;
 }
-.author p{
+
+.author p {
     width: 100%;
     letter-spacing: 0.02em;
     font-size: 15px;
@@ -139,18 +153,43 @@ div.author {
     color: 333;
     margin-bottom: 30px;
 }
-.author a{
+
+.author a {
     color: inherit;
- }
- .author a:hover{
-    text-decoration:none ;
+}
+
+.author a:hover {
+    text-decoration: none;
     color: inherit;
- }
- .time li {
+}
+
+.time li {
     font-weight: 500;
     color: #333;
     margin-bottom: 1rem;
     font-size: 0.8125rem;
     line-height: 1rem;
     margin: 0;
- }
+}
+.separator-ad div {
+    width: 72px;
+    border-bottom: 1px solid rgb(204, 204, 204);
+    margin: 0px auto 18px;
+    margin-top: 20px;
+    padding-right: 0;
+}
+
+.separator-ad {
+    width: auto;
+    font-size: 15px;
+    margin: 0 auto;
+    font-weight: 700;
+    font-size: 15px;
+    line-height: 19px;
+    text-align: center;
+    padding-right: 0;
+}
+.separator-ad a{
+    color: rgb(50, 104, 145);
+    text-decoration: none;
+}
