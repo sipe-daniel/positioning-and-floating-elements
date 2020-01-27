@@ -372,7 +372,8 @@ aside div div {
 }
 
 .footer {
-    grid-area: footer;
+    margin: 0 auto;
+    width: 1200px;
 }
 
 .wrapper {
@@ -408,13 +409,13 @@ div.desc {
 
 .column-footer { 
     float: left; 
-    width: 9%; 
+    width: 12%; 
     height: 300px;
-    margin-right: 5em;  
+    margin-right: 2em;  
 } 
 
 footer > div {
-    margin: 0 10em;
+    margin: 17px 10em;
 }
 
 footer > div > div > ul > li > a{
@@ -471,4 +472,31 @@ font-size: 1rem;
     border-bottom: 1px solid rgb(226, 226, 226);
     padding: 5px 0px;
 }
+
+.column-footer > ul > li {
+    text-transform: capitalize;
+    color: #000; 
+    display: inline-block;
+    font-family: nyt-franklin;
+    -webkit-text-decoration: none;
+    text-decoration: none;
+    width: 150px;
+    font-size: 15px;
+    font-weight: 500;
+    height: 23px;
+    line-height: 16px;
 }
+
+
+.column-footer > h3 {
+    text-transform: uppercase;
+}
+
+.specific-title li a{
+    font-weight: bold; 
+}
+
+ul.specific-title li {
+    height: 29px;
+}
+
