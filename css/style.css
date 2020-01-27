@@ -371,11 +371,6 @@ aside div div {
     grid-area: header;
 }
 
-.footer {
-    margin: 0 auto;
-    width: 1200px;
-}
-
 .wrapper {
     display: grid;
     grid-gap: 10px;
@@ -409,20 +404,33 @@ div.desc {
 
 .column-footer { 
     float: left; 
-    width: 12%; 
+    width: 185px;
     height: 300px;
-    margin-right: 2em;  
+    margin-right: 0.5em;  
 } 
 
-footer > div {
-    margin: 17px 10em;
-}
+footer {
+    margin: 0 auto;
+    width: 1200px;
 
+}
+.double-line {
+    border-bottom: 1px solid #e2e2e2;
+    border-top: 2px solid #e2e2e2;
+    content: '';
+    display: block;
+    height: 1px;
+    margin-top: 0;
+}
 footer > div > div > ul > li > a{
     text-decoration: none;
     color: black;
 }
-
+.footer-logo img{
+    width: 184px;
+    height: auto;
+    margin: 4px 0 20px 0;
+}
 .title-article > div > h3 {
     margin-left: 15px;
 }
@@ -453,13 +461,11 @@ font-size: 1rem;
     display: block;
 
  }
-.other-articles {
-    
-}
 .separator {
     clear:both;
     margin-top:40px
 }
+
 .left-column {
     width: 73%;
     float: left;
@@ -474,29 +480,82 @@ font-size: 1rem;
 }
 
 .column-footer > ul > li {
-    text-transform: capitalize;
-    color: #000; 
+    color: #000;
     display: inline-block;
     font-family: nyt-franklin;
-    -webkit-text-decoration: none;
-    text-decoration: none;
-    width: 150px;
-    font-size: 15px;
+    text-transform: capitalize;
+    width: 200px;
+    font-size: 14px;
     font-weight: 500;
     height: 23px;
     line-height: 16px;
+    margin: 0;
 }
 
 
 .column-footer > h3 {
+    color: #333;
+    font-size: 13px;
+    font-weight: 700;
+    font-family: nyt-franklin;
+    height: 25px;
+    line-height: 15px;
+    margin: 0;
     text-transform: uppercase;
+    width: 150px;
 }
-
+.smaller a{
+    font-size: 11px;
+}
+ul.second {
+    margin-top: 15px;
+}
+ul.line{
+    border-top: 1px solid #e2e2e2;
+    margin-top: 2px;
+    padding-top: 10px;
+    display: block;
+}
 .specific-title li a{
     font-weight: bold; 
-}
+    }
 
-ul.specific-title li {
+.specific-title li a:hover, .column-footer > ul > li a:hover {
+text-decoration: underline;
+    }
+.specific-title li {
     height: 29px;
 }
+.specific-title a {
+    font-size: 16px;
+}
 
+.righty {
+    border-left: 1px solid #e2e2e2;
+    padding-left: 15px;
+    }
+nav {
+    margin-top: 20px;
+    text-align: center;
+    width: 100%;
+    border-top: 1px solid #ebebeb;
+    padding-top: 9px;
+}
+nav h2 {
+    display: none;
+}
+nav ul {
+    display: inline-block;
+
+}
+nav ul li{
+    margin:0 ;
+    padding: 0 10px;
+    
+}
+nav ul li a {
+    color: #666;
+    font-family: nyt-franklin,helvetica,arial,sans-serif;
+    font-size: 11px;
+    text-decoration: none;
+}
