@@ -16,9 +16,6 @@ li {
     margin: 0 1em;
 }
 
-.subscibtionBtn, .loginBtn {
-    float: right;
-}
 
 .loginBtn {
     margin: 0 0em;
@@ -41,6 +38,19 @@ li {
 
 .navigation {
     border-bottom: 1px solid #e2e2e2;
+    /* position: relative; */
+}
+.navigation-left, .navigation-right {
+    position: absolute;
+}
+
+nav ul.navigation{
+    display: block;
+}
+
+.top-bar{
+    margin-top : 0px;
+    padding-top: 0px;
 }
 
 * {
