@@ -71,9 +71,31 @@ nav ul.navigation{
     font-weight: 700;
     text-transform: uppercase;
     padding: 11px 12px 8px;
-
-
+    text-decoration: none;
  }
+
+ .commentBtn {
+     display: inline-block;
+ }
+
+ .commentBtn a{
+    width: 330px;
+    text-align: center;
+    display:   inline-block;
+    border-radius: 3px;
+    cursor: pointer;
+    font-family: nyt-franklin,helvetica,arial,sans-serif;
+    background-color: #567b95;
+    border: 1px solid #326891;
+    color: #fff;
+    font-size: 11px;
+    line-height: 11px;
+    font-weight: 700;
+    text-transform: uppercase;
+    padding: 11px 12px 8px;
+    text-decoration: none;
+ }
+
  .subscibtionBtn{
     /* right: 200px;
     top: 10px */
@@ -96,9 +118,42 @@ nav ul.navigation{
 
 .logo {
     /* margin: 0px 29%; */
-    margin-top:15px ;
-    margin-left:470px;
-    margin-right: 470px;
+    margin-top: 0px;
+    margin-left: 23%;
+    margin-right: 23%;
+}
+
+.first-section{
+    margin-bottom: 1em;
+}
+.fa-share, .fa-facebook-f, .fa-skype, .fa-envelope {
+    background: transparent;
+    display: inline-block;
+    height: 20px;
+    width: 20px;
+    background-color: #eee;
+    border: 1px #eee solid;
+    border-radius: 100%;
+    padding: 5px;
+    width: 27px;
+    height: 27px;
+}
+
+.fa-share:hover, .fa-facebook-f:hover, .fa-skype:hover, .fa-envelope:hover, {
+    background: transparent;
+    display: inline-block;
+    height: 20px;
+    width: 20px;
+    background-color: white;
+    border: 1px #eee solid;
+    border-radius: 100%;
+    padding: 5px;
+    width: 27px;
+    height: 27px;
+}
+
+.second-group-icon {
+    float: right;
 }
 
 .navigation {
@@ -118,7 +173,7 @@ main .principal-article {
 main {
     width: 1200px;
     margin: 0 auto;
-    margin-top:700px
+    margin-top: 5%;
 }
 .big-image {
     align-items: center;
@@ -281,17 +336,23 @@ div.author {
 
 }
 .top-icons li{
-    background: url(../images/fb-icon) 0 0;
+    /* background: url(../images/fb-icon) 0 0; */
     /*display: inline-block;
      left: 106px;
     position: absolute; */
-    width: 27px;
+    width: 7px;
     height: 30px;
-    outline: 1px solid green;
+    /* outline: 1px solid green; */
 }
 /* .top-icons li:hover{{
 
 } */
+
+.time{
+    /* width: 27px; */
+    /* height: 30px; */
+    margin-top: 1em;
+}
 .title h6{
     font-size: 1.25rem;
     line-height: 1.5rem;
@@ -430,6 +491,10 @@ aside div div {
     /* margin: 0px auto 1em; */
 }
 
+.bottom-of-article {
+    margin-bottom: 2em;
+}
+
 .content {
     grid-area: content;
     position: relative;
@@ -499,6 +564,13 @@ footer > div > div > ul > li > a{
     height: auto;
     margin: 4px 0 20px 0;
 }
+.footer-logo div {
+    color: #567b95;
+    font-family: nyt-franklin;
+    font-size: 11px;
+    float: right;
+    margin: 1em auto;
+}
 .title-article > div > h3 {
     margin-left: 15px;
 }
@@ -529,6 +601,7 @@ font-size: 1rem;
     display: block;
 
  }
+
 .separator {
     clear:both;
     margin-top:40px
@@ -537,16 +610,20 @@ font-size: 1rem;
 .left-column {
     width: 73%;
     float: left;
+    margin-top: 1em;
 }
 .right-column {
     float: left;
     width: 26%;
+    margin-top: 1em;
 }
 .right-column h3 {
     border-bottom: 1px solid rgb(226, 226, 226);
     padding: 5px 0px;
 }
-
+.title-porfolio-article > div {
+    margin-bottom: 1em;
+}
 .column-footer > ul > li {
     color: #000;
     display: inline-block;
@@ -644,4 +721,26 @@ main:first-child {
 }
 * li {
     margin-top: 0;
+}
+
+.figcaption-gallery{
+    display: block;
+    font-family: nyt-cheltenham-small, georgia, "times new roman";
+    width: 150px;
+    float: right;
+}
+
+.figcaption-gallery > section{
+    width: 180px;
+    padding-bottom: 4px;
+    font-size: 0.625rem;
+    margin: 3px 0px 0px;
+    text-align: right;
+    color: rgb(153, 153, 153);
+    line-height: 1.23em;
+    font: inherit;
+    vertical-align: baseline;
+    padding: 0;
+    border: 0;
+    float: right;
 }

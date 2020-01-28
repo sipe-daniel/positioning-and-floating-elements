@@ -41,9 +41,9 @@
                 </div>
             </header>
 
-            <section>
-                <div style="border: 1px solid black;float: left;width: 60%;">
-                    <h2>Author section</h2>
+            <section >
+                <div style="border: 1px solid black;float: left;width: 60%;" class="first-section">
+                    <!-- <h2>Author section</h2> -->
                     <div class="author">
                         <p>By <a href="#">Dennis Overbye</a></p class="author">
                     </div class="author">
@@ -54,12 +54,12 @@
                     </div>
                     <div class="top-icons">
                         <ul>
-                            <i class="fa fa-facebook-f"></i>
-                            <i class="fa fa-skype"></i>
-                            <i class="fa fa-envelope"></i>
-                            <i class="fa fa-share"></i>
-                            <li class="suscribe"></li>
-                            <i class="fal fa-comment-alt"></i>
+                            <li class="suscribe"><i class="fa fa-facebook-f"></i></li>
+                            <li><i class="fa fa-skype"></i></li>
+                            <li><i class="fa fa-envelope"></i></li>
+                            <li><i class="fa fa-share"></i></li>
+                            <li class="suscribe"><i class="fa fa-bookmark"></i></li>
+                            <li><i class="fa fa-comment"></i></li>
                         </ul>
                     </div>
 
@@ -394,20 +394,16 @@
                             Today’s
                             Paper | Subscribe</p>
 
-                        <div style="display: inline-block;">
-                            <button type="button">Click Me!</button>
-                        </div>
+                        <div class="commentBtn"><a href="#">Read 615 Comments</a></div>
 
-                        <div style="display: inline-block; ">
-                            <ul style="margin-left: 27em;">
+                        <div style="display: inline-block;" class="second-group-icon">
+                            <ul>
                                 <i class="fa fa-facebook-f"></i>
                                 <i class="fa fa-skype"></i>
                                 <i class="fa fa-envelope"></i>
                                 <i class="fa fa-share"></i>
                             </ul>
                         </div>
-
-
                     </div>
                 </div>
                 <aside style="border: 1px solid black;width:23%;float:right;"></aside>
@@ -431,6 +427,7 @@
                                         alt="Cinque Terre" width="600" height="400">
                                     <div class="desc">Waiting for Betelgeuse to Explode</div>
                                 </a>
+                                <span class=""><time data-testid="todays-date" aria-label="January 21">Jan. 21</time></span>
 
                             </div>
 
@@ -438,50 +435,62 @@
                                 <a target="_blank" href="#">
                                     <img src="https://static01.nyt.com/images/2020/01/19/science/19spaceflight/merlin_167378574_dcbfdc7e-943d-45f0-8867-449db5e141d6-threeByTwoSmallAt2X.jpg?quality=75&auto=webp&disable=upscale"
                                         alt="Forest" width="600" height="400">
+                                </a>
+                                    <figcaption class="figcaption-gallery">
+                                        <section class="">Joe Rimkus Jr/Reuters</section>
+                                    </figcaption>
                                     <div class="desc">SpaceX’s Explosive Test May Launch Year of Renewed Human
                                         Spaceflight
                                     </div>
-                                </a>
-
+                                
+                                <span class=""><time data-testid="todays-date" aria-label="January 19">Jan. 19</time></span>
                             </div>
 
                             <div class="gallery">
                                 <a target="_blank" href="#">
                                     <img src="https://static01.nyt.com/images/2020/01/14/science/11SCI-VERA1/11SCI-VERA1-threeByTwoSmallAt2X-v2.jpg?quality=75&auto=webp&disable=upscale"
                                         alt="Northern Lights" width="600" height="400">
-                                    <div class="desc">Vera Rubin Gets a Telescope of Her Own</div>
                                 </a>
-
+                                <figcaption class="figcaption-gallery">
+                                    <section class="">Joe Rimkus Jr/Reuters</section>
+                                </figcaption>
+                                <div class="desc">Vera Rubin Gets a Telescope of Her Own</div>
+                                <span class=""><time data-testid="todays-date" aria-label="January 27">Jan. 11</time></span>
                             </div>
                             <div style="clear:both"></div>
                             <div class="gallery">
                                 <a target="_blank" href="#">
                                     <img src="https://static01.nyt.com/images/2020/01/08/us/betelgeuse-supernova-fading-promo-1578514311515/betelgeuse-supernova-fading-promo-1578514311515-threeByTwoSmallAt2X-v4.jpg?quality=75&auto=webp&disable=upscale"
                                         alt="Cinque Terre" width="600" height="400">
-                                    <div class="desc">Waiting for Betelgeuse to Explode</div>
                                 </a>
-
+                                <div class="desc">Waiting for Betelgeuse to Explode</div>
+                                <span class=""><time data-testid="todays-date" aria-label="January 11">Jan. 9</time></span>
                             </div>
 
                             <div class="gallery">
                                 <a target="_blank" href="#">
                                     <img src="https://static01.nyt.com/images/2020/01/09/science/09TB-VENUS1/09TB-VENUS1-threeByTwoSmallAt2X.jpg?quality=75&auto=webp&disable=upscale"
                                         alt="Forest" width="600" height="400">
-                                    <div class="desc">Volcanoes on Venus Might Still Be Smoking</div>
                                 </a>
-
+                                <figcaption class="figcaption-gallery">
+                                    <section class="">Joe Rimkus Jr/Reuters</section>
+                                </figcaption>
+                                <div class="desc">Volcanoes on Venus Might Still Be Smoking</div>
+                                <span class=""><time data-testid="todays-date" aria-label="January 9">Jan. 9</time></span>
                             </div>
 
                             <div class="gallery">
                                 <a target="_blank" href="#">
                                     <img src="https://static01.nyt.com/images/2020/01/01/science/01SPACEPREVIEW1/01SPACEPREVIEW1-threeByTwoSmallAt2X.jpg?quality=75&auto=webp&disable=upscale"
                                         alt="Northern Lights" width="600" height="400">
-                                    <div class="desc">Rocket Launches, Trips to Mars and More 2020 Space and Astronomy
-                                        Eventse</div>
                                 </a>
-
+                                <figcaption class="figcaption-gallery">
+                                    <section class="">Joe Rimkus Jr/Reuters</section>
+                                </figcaption>
+                                <div class="desc">Rocket Launches, Trips to Mars and More 2020 Space and Astronomy
+                                    Eventse</div>
+                                <span class=""><time data-testid="todays-date" aria-label="January 9">Jan. 1</time></span>
                             </div>
-
                         </div>
                         <div class="title-porfolio-article ">
                             <div>
@@ -493,9 +502,9 @@
                                 <a target="_blank" href="#">
                                     <img src="https://static01.nyt.com/images/2020/01/01/science/01SPACEPREVIEW1/01SPACEPREVIEW1-threeByTwoSmallAt2X.jpg?quality=75&auto=webp&disable=upscale"
                                         alt="Cinque Terre" width="600" height="400">
-                                    <div class="desc">Why Do Trump Supporters Support Trump?</div>
                                 </a>
-
+                                <div class="desc">Why Do Trump Supporters Support Trump?</div>
+                                <span class=""><time data-testid="todays-date" aria-label="January 9">Jan. 20</time></span>
                             </div>
 
                             <div class="gallery">
@@ -503,20 +512,26 @@
                                 <a target="_blank" href="img_forest.jpg">
                                     <img src="https://static01.nyt.com/images/2020/01/23/science/23SCI-VESUVIUS1/23SCI-VESUVIUS1-threeByTwoSmallAt2X.jpg?quality=75&auto=webp&disable=upscale"
                                         alt="Forest" width="600" height="400">
-                                    <div class="desc">10 Years Later, an Oscar Experiment That Actually Worked</div>
                                 </a>
-
+                                <figcaption class="figcaption-gallery">
+                                    <section class="">Joe Rimkus Jr/Reuters</section>
+                                </figcaption>
+                                <div class="desc">10 Years Later, an Oscar Experiment That Actually Worked</div>
+                                <span class=""><time data-testid="todays-date" aria-label="January 1">Jan. 27</time></span>
                             </div>
 
                             <div class="gallery">
                                 <a target="_blank" href="img_lights.jpg">
                                     <img src="https://static01.nyt.com/images/2020/01/15/arts/14warholphoto-review1/14warholphoto-review1-threeByTwoSmallAt2X.jpg?quality=75&auto=webp&disable=upscale"
                                         alt="Northern Lights" width="600" height="400">
-                                    <div class="desc">My AirPods Fell Through a Subway Grate. Here’s How I Got Them
-                                        Back.
-                                    </div>
                                 </a>
-
+                                <figcaption class="figcaption-gallery">
+                                    <section class="">Joe Rimkus Jr/Reuters</section>
+                                </figcaption>
+                                <div class="desc">My AirPods Fell Through a Subway Grate. Here’s How I Got Them
+                                    Back.
+                                </div>
+                                <span class=""><time data-testid="todays-date" aria-label="January 20">Jan. 15</time></span>
                             </div>
                         </div>
                     </div>
@@ -556,8 +571,13 @@
 
         </div>
         <div class="footer-logo">
+
             <img src="images/New_York_Times_Logo.svg.png" alt="mini logo">
+            <div >
+                    Go to Home Page »
+            </div>
         </div>
+        
         <div>
             <div class="column-footer">
                 <h3>news</h3>
@@ -641,7 +661,10 @@
                     <li><a href="#">manage my account</a></li>
                 </ul>
             </div>
+            
+           
             <div class="column-footer righty">
+                   
                 <h3>suscribe</h3>
                 <ul class="specific-title">
                     <li><a href="#"> <img src="images/home-icon.png" alt=""> Home Delivery</a></li>
