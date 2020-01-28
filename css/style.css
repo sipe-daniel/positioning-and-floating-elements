@@ -19,8 +19,8 @@ li {
 
 .navigation {
     position: relative;
-    padding-top: 10px;
-    height: 43px;
+    /* height: 43px; */
+    
 }
 
 .subscibtionBtn, .loginBtn {
@@ -43,8 +43,9 @@ nav ul.navigation{
 }
 .cathegory {
     left: 240px;
+    top:-15px
  }
- .cathegory a {
+ .cathegory a { 
     font-size: 14.25px;
     font-family: nyt-franklin,helvetica,arial,sans-serif;
     font-weight: 700;
@@ -58,6 +59,7 @@ right: 130px;
 top: 10px
  }
  .loginBtn a, .subscibtionBtn a{
+    display:   inline-block;
     border-radius: 3px;
     cursor: pointer;
     font-family: nyt-franklin,helvetica,arial,sans-serif;
@@ -123,7 +125,7 @@ main {
 }
 
 .big-image img {
-    /* background-image: url(''); */
+    background-image: url('https://static01.nyt.com/images/2014/03/18/science/space/18cosmos/18cosmos-jumbo.jpg'); 
     width: 100%;
     height: auto;
     cursor: pointer;
@@ -175,6 +177,10 @@ section{
 }
 section, div.grid {
     margin: 0 auto;
+
+}
+.grid {
+    width: 945px;
 }
 section > div {
     margin-left: 200px;
@@ -331,25 +337,25 @@ div.author {
     top:24.8264%;left:0.0436%;width:228px;
 }
 .col2row1{
-    top:24.8264%;left:25.5619%;width:228px;
+    top:24.8264%;left:236.25px;width:228px;
 }
 .col3row1{
-    top:24.8264%;left:51.0800%;width:228px;
+    top:24.8264%;left:472.5px;width:228px;
 }
 .col4row1{
-    top:24.8264%;left:76.5982%;width:228px;
+    top:24.8264%;left:700px;width:228px;
 }
 .col1row2{
     top:73.4375%;left:0.0436%;width:228px;
 }
 .col2row2{
-    top:73.4375%;left:25.5619%;width:228px;
+    top:73.4375%;left:236.25px;width:228px;
 }
 .col3row2{
-    top:73.4375%;left:51.0800%;width:228px;
+    top:73.4375%;left:472.5px;width:228px;
 }
 .col4row2{
-    top:73.4375%;left:76.5982%;width:228px;
+    top:73.4375%;left:700px;width:228px;
 }
 aside {
     /* width: 210px; */
@@ -596,11 +602,14 @@ text-decoration: underline;
     padding-left: 15px;
     }
 nav {
-    margin-top: 20px;
+    /* margin-top: 20px; */
     text-align: center;
     width: 100%;
     border-top: 1px solid #ebebeb;
-    padding-top: 9px;
+    padding-bottom: 9px;
+}
+nav.top {
+    
 }
 nav h2 {
     display: none;
@@ -619,4 +628,16 @@ nav ul li a {
     font-family: nyt-franklin,helvetica,arial,sans-serif;
     font-size: 11px;
     text-decoration: none;
+}
+main:first-child {
+    height:50px;
+    display:relative;
+
+}
+header .top {   
+     background-color: white;
+    /* outline: 1px solid yellow; */
+    position: fixed;
+    top: 0;
+    
 }
