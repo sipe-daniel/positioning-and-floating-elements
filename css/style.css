@@ -6,7 +6,33 @@ section > h2 {
   width: 24px;
   height: 2px;
   background-color: black;
-  margin: 4px -1px;
+  margin: 3px -1px;
+}
+
+.group-hamburger {
+  bottom: 2px;
+  position: relative;
+}
+
+section p a {
+  color: #326891;
+}
+
+nav ul li a {
+  color: #666;
+  font-family: nyt-franklin, helvetica, arial, sans-serif;
+  font-size: 11px;
+  text-decoration: none;
+}
+
+footer > div > div > ul > li > a {
+  text-decoration: none;
+  color: black;
+}
+
+.search > a {
+  bottom: 7px;
+  position: relative;
 }
 
 ul {
@@ -21,25 +47,9 @@ li {
   margin: 0 1em;
 }
 
-section p a {
-  color: #326891;
-}
-
 *,
 li {
   margin-top: 0;
-}
-
-nav ul li a {
-  color: #666;
-  font-family: nyt-franklin, helvetica, arial, sans-serif;
-  font-size: 11px;
-  text-decoration: none;
-}
-
-footer > div > div > ul > li > a {
-  text-decoration: none;
-  color: black;
 }
 
 .loginBtn a,
@@ -72,6 +82,11 @@ footer > div > div > ul > li > a {
   letter-spacing: 0.7px;
   line-height: 19px;
   color: black;
+}
+
+.cathegory {
+  bottom: 7px;
+  position: relative;
 }
 
 .commentBtn a {
@@ -843,28 +858,6 @@ header .top {
   position: fixed;
   top: 0;
 }
-
-/* .figcaption-gallery{
-    display: block;
-    font-family: nyt-cheltenham-small, georgia, "times new roman";
-    width: 150px;
-    float: right;
-}
-
-.figcaption-gallery > section{
-    width: 180px;
-    padding-bottom: 4px;
-    font-size: 0.625rem;
-    margin: 3px 0px 0px;
-    text-align: right;
-    color: rgb(153, 153, 153);
-    line-height: 1.23em;
-    font: inherit;
-    vertical-align: baseline;
-    padding: 0;
-    border: 0;
-    float: right;
-} */
 
 div.desc {
   clear: both;
