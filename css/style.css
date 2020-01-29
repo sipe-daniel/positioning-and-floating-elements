@@ -178,7 +178,10 @@ aside img {
 
 section,
 div.grid {
-  margin: 0 auto;
+  margin-left: 82px;
+  margin-top: 0;
+  margin-bottom: 0;
+  margin-right: 90px;
 }
 
 .big-image img {
@@ -310,7 +313,7 @@ header p > span {
 
 section {
   width: 1200px;
-  margin-left: 0;
+  /* margin-left: 0; */
 }
 
 header + section {
@@ -870,6 +873,11 @@ h2.hide {
 
 .middle-image > figure > div > img {
   width: 720px;
+  margin-left: 71px;
+}
+
+.middle-image > figure > figcaption {
+  margin-left: 71px;
 }
 
 .nav-footer {
