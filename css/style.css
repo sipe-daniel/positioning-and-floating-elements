@@ -875,3 +875,65 @@ h2.hide {
 .nav-footer {
   margin-top: 2em;
 }
+
+/* SMARTPHONES PORTRAIT */
+@media only screen and (max-width: 400px) {
+
+  aside h3 {
+    color:green;
+  }
+   aside {
+     display: none;
+
+  }
+}
+
+/* SMARTPHONES LANDSCAPE */
+@media all and (min-width: 600px) and (max-width: 799px) {
+  aside h3 {
+    color:blue;
+  }
+  aside {
+     display: none;
+
+  }
+  
+}
+
+/* TABLETS PORTRAIT */
+@media all and  (min-width: 800px) and  (min-width: 1024px) {
+
+aside {
+  float: right;
+  width: 222px;
+  align-items: center;
+  }
+.sidebar {
+  float: right;
+  position: relative;
+
+}
+
+.sidebar:first-child {
+  position: absolute;
+  top: 2100px;
+  right: 430px;
+}
+aside article {
+  display: block;
+  margin-bottom: 15px;
+  height: 80px;
+}
+aside h3 {
+  color:red;
+}
+}
+
+
+/* TABLET LANDSCAPE / DESKTOP */
+@media only screen and (min-width: 1024px) {
+
+aside h3 {
+    color:gray;
+  }
+}    
