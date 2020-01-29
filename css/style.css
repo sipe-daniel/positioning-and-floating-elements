@@ -392,6 +392,33 @@ aside div div {
   left: 250px;
 }
 
+.box-end > div {
+  float: right;
+}
+
+.box-end {
+  border-top: 1px solid black;
+  margin-top: 1.5em;
+  padding-top: 1em;
+  position: fixed;
+  bottom: 0;
+  float: right;
+  width: 100%;
+  background-color: white;
+}
+
+.firstelt-box {
+  margin-right: 16em;
+}
+
+.secondelt-box {
+  margin-right: 8em;
+}
+
+.thirdelt-box {
+  margin-right: 14em;
+}
+
 div.grid div {
   margin: 0 auto;
 }
