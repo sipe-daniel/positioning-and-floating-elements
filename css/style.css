@@ -31,7 +31,7 @@ footer > div > div > ul > li > a {
 }
 
 .loginBtn a,
-.subscibtionBtn a {
+.subscription-btn a {
   display: inline-block;
   border-radius: 3px;
   cursor: pointer;
@@ -45,6 +45,11 @@ footer > div > div > ul > li > a {
   text-transform: uppercase;
   padding: 11px 12px 8px;
   text-decoration: none;
+}
+
+.subscription-btn {
+  bottom: 7px;
+  position: relative;
 }
 
 .cathegory a {
@@ -151,6 +156,8 @@ nav ul.navigation {
 
 .loginBtn {
   right: 10px;
+  bottom: 7px;
+  position: relative;
 }
 
 .commentBtn {
@@ -655,7 +662,7 @@ div.gallery {
 }
 
 div.gallery:hover {
-  border: 1px solid #777;
+  color: solid #777;
 }
 
 div.gallery img {
