@@ -391,31 +391,47 @@ aside div div {
   left: 250px;
 }
 
-.box-end > div {
-  float: right;
-}
-
 .box-end {
-  border-top: 1px solid black;
-  margin-top: 1.5em;
-  padding-top: 1em;
+  border-top: 1px solid rgb(51, 51, 51);
+  height: 55px;
+  padding-bottom: 0px;
   position: fixed;
   bottom: 0;
-  float: right;
   width: 100%;
   background-color: white;
+  margin: 0 auto;
+  
 }
-
-.firstelt-box {
-  margin-right: 16em;
+.block{
+  width: 1200px;
+  margin: 0 auto; 
 }
-
-.secondelt-box {
-  margin-right: 8em;
+.box-end > div {
+  padding-top: 10px;
+  font-family: nyt-franklin;
+  cursor: pointer;
 }
-
 .thirdelt-box {
-  margin-right: 14em;
+  padding-top: ;
+  margin-left:350px;
+  width:450px;
+  float: left;
+}
+.secondelt-box {
+  font-size: 12px;
+  text-transform: uppercase;
+  font-weight: 700;
+  letter-spacing: 0.24px;
+  float:right;
+  margin-right: 30px;
+  width:100px;
+}
+.firstelt-box {
+  font-size: 15px;
+  line-height: 17px;
+  float: right;
+  margin-right: 20px;
+  width:30px;
 }
 
 div.grid div {
@@ -709,6 +725,7 @@ div.gallery img {
 footer {
   margin: 0 auto;
   width: 1200px;
+  margin-bottom: 70px;
 }
 
 .double-line {
