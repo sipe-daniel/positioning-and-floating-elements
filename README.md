@@ -1,6 +1,6 @@
 # Positioning And Floating Flements
 
-> This project consists of building an HTML document that matches the appearance of New York Times Post().
+> This project consists of building an HTML document that matches the appearance of New York Times Post.
 
 ## Built With
 
