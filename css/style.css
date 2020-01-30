@@ -1,3 +1,7 @@
+body {
+  overflow-x: hidden;
+}
+
 section > h2 {
   display: none;
 }
