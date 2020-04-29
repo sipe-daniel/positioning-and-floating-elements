@@ -1,6 +1,8 @@
 # Positioning And Floating Flements
 
-> This project consists of building an HTML document that matches the appearance of New York Times Post.
+> This project consists of building an HTML document that matches the appearance of New York Times Post([Original project link](https://www.theodinproject.com/courses/html5-and-css3/lessons/positioning-and-floating-elements)
+
+![screenshot](./preview.png)
 
 ## Built With
 
@@ -8,6 +10,8 @@
 - CSS,
 
 ## Live Demo
+
+[Live Demo Link](https://rawcdn.githack.com/sipe-daniel/positioning-and-floating-elements/bf7e702e67e23bd027e8abe05b61c49252de1bce/index.html)
 
 
 ## Authors
