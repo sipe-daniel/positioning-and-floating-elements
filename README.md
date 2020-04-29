@@ -1,6 +1,6 @@
 # Positioning And Floating Flements
 
-> This project consists of building an HTML document that matches the appearance of New York Times Post([Original project link](https://www.theodinproject.com/courses/html5-and-css3/lessons/positioning-and-floating-elements)
+> This project consists of building an HTML document that matches the appearance of New York Times Post([Original project link](https://www.nytimes.com/2014/03/18/science/space/detection-of-waves-in-space-buttresses-landmark-theory-of-big-bang.html?_r=0)
 
 ![screenshot](./preview.png)
 
